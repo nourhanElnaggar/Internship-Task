@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { DetailsComponent } from './product/details/details.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import {AccordionModule} from 'primeng/accordion';
+import {MenuItem} from 'primeng/api'; 
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccordionModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
